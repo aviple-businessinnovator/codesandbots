@@ -4148,4 +4148,14 @@ body > div.contianer-fluid > div{
   font-weight: 700;
   text-align: justify;
 }
+@media(max-width: 640px){
+  .img-fluid {
+    display: none;
+  }
+}
+@media (max-width: 640px){
+  .hero h1{
+    margin-top: 20px;
+  }
+}
 
