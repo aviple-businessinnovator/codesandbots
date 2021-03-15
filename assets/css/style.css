@@ -181,12 +181,12 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+  max-height: 70px;
+  margin-right: 10px;
 }
 
 .header .logo span {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
@@ -222,7 +222,7 @@ section {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Nunito", sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 700;
   color: #013289;
   white-space: nowrap;
@@ -337,6 +337,20 @@ section {
   }
   .navbar ul {
     display: none;
+  }
+}
+
+@media(max-width: 450px){
+  .header .logo img {
+    max-height: 40px;
+  }
+
+  .header .logo span {
+    font-size: 25px;
+  }
+
+  .navbar a{
+    font-size: 16px;
   }
 }
 
