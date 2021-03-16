@@ -4149,7 +4149,7 @@ body > div.contianer-fluid > div{
   text-align: justify;
 }
 @media(max-width: 640px){
-  .img-fluid {
+  .hero .no-gutters .img-fluid {
     display: none;
   }
 }
