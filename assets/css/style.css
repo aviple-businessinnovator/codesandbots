@@ -471,13 +471,13 @@ section {
 .hero .btn-get-started span {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 1px;
 }
 
 .hero .btn-get-started i {
   margin-left: 5px;
-  font-size: 18px;
+  font-size: 20px;
   transition: 0.3s;
 }
 
@@ -494,7 +494,7 @@ section {
     margin-top: 100px;
   }
   .hero h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
   .hero h2 {
     font-size: 25px;
