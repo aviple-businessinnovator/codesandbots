@@ -443,7 +443,7 @@ section {
 
 .hero h1 {
   margin: 0px;
-  font-size: 33px;
+  font-size: 44px;
   font-weight: 700;
   color: #012970;
   text-align: left;
@@ -451,8 +451,8 @@ section {
 
 .hero h2 {
   color: #444444;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 30px;
+  line-height: 40px;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: left;
@@ -471,7 +471,7 @@ section {
 .hero .btn-get-started span {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 1px;
 }
 
@@ -488,6 +488,19 @@ section {
 .hero .hero-img {
   text-align: right;
 }
+
+@media (max-width: 1500px) {
+  .hero no-gutters h1{
+    margin-top: 100px;
+  }
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero h2 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+} 
 
 @media (max-width: 991px) {
   .hero {
@@ -506,12 +519,15 @@ section {
   }
 } 
 
-@media (min-width: 768px; max-width: 1022px) {
+@media (min-width: 768px) and (max-width: 1022px) {
+  .hero .no-gutters h1{
+    margin-top: 50px;
+  }
   .hero {
     text-align: center;
   }
   .hero h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .hero h2 {
     font-size: 25px;
