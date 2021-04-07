@@ -1451,6 +1451,11 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact .container{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
 .contact .info-box {
   color: #444444;
   background: #fafbff;
@@ -1527,7 +1532,6 @@ section {
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
   border-radius: 0;
 }
 
@@ -1537,23 +1541,26 @@ section {
 
 .contact .php-email-form input {
   padding: 10px 15px;
+  font-size: 20px;
 }
 
 .contact .php-email-form textarea {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form a {
   background: #4154f1;
   border: 0;
+  font-size: 20px;
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form a:hover {
   background: #5969f3;
+  color: white;
 }
 
 @-webkit-keyframes animate-loading {
